@@ -19,7 +19,6 @@ movie_recommender/
 │
 ├── backend/
 │   ├── database.py         # SQLite database setup and helpers
-│   ├── data_loader.py      # Scripts to bulk-load movie data
 │   ├── recommender.py      # ML model for movie recommendations
 │   └── __init__.py         # Module initializer
 │
@@ -29,6 +28,8 @@ movie_recommender/
 ├── tmdb_5000_movies.csv    # Raw movie dataset
 ├── tmdb_5000_credits.csv   # Raw credits dataset
 └── README.md
+└── requirements.txt         # App requirements
+└── model.db                # SQLite database
 ```
 
 ---
@@ -57,7 +58,7 @@ movie_recommender/
 ---
 
 ## 📄 Requirements
-- Python 3.8+
+- Python 3.8+2
 - pandas
 - scikit-learn
 - sqlite3 (built-in)

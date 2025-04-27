@@ -63,16 +63,6 @@ movie_recommender/
 - sqlite3 (built-in)
 - streamlit
 
-You can create a `requirements.txt` like:
-
-```
-pandas
-scikit-learn
-streamlit
-```
-
----
-
 ## 📊 Dataset
 - [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
 - Includes movie metadata and credits (actors, directors, etc.)

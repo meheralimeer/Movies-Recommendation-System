@@ -58,7 +58,7 @@ movie_recommender/
 ---
 
 ## 📄 Requirements
-- Python 3.8+2
+- Python 3.8+
 - pandas
 - scikit-learn
 - sqlite3 (built-in)

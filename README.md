@@ -28,7 +28,7 @@ movie_recommender/
 ├── tmdb_5000_movies.csv    # Raw movie dataset
 ├── tmdb_5000_credits.csv   # Raw credits dataset
 ├── README.md
-├── requirements.txt         # App requirements
+├── requirements.txt        # App requirements
 └── model.db                # SQLite database
 ```
 

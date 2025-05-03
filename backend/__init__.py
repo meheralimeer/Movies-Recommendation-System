@@ -1,4 +1,4 @@
 # backend/__init__.py
 
 from .database import *
-from .recommendation_model import MovieRecommender
+from .model_handler import *

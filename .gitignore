@@ -2,3 +2,4 @@ database overview.jpg
 data_loader.py
 dataset.zip
 backend/recommendation_model.py
+backend/movie_recommendation_model.pkl

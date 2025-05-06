@@ -18,18 +18,18 @@ A simple **Streamlit** web app powered by **Machine Learning** and **SQLite** to
 movie_recommender/
 │
 ├── backend/
-│   ├── database.py         # SQLite database setup and helpers
-│   ├── recommender.py      # ML model for movie recommendations
-│   └── __init__.py         # Module initializer
+│   ├── database.py                           # SQLite database setup and helpers
+│   ├── model_handler.py                      # ML model handler for movie recommendations
+│   ├── movies_recommendation_model.pkl       # Pretrainded ML model [not available in this repo due to large filesize]
+│   └── __init__.py                           # Module initializer
 │
-├── frontend/
-│   └── app.py              # Streamlit frontend app
+├── app.py                                    # Streamlit frontend app
 │
-├── tmdb_5000_movies.csv    # Raw movie dataset
-├── tmdb_5000_credits.csv   # Raw credits dataset
+├── tmdb_5000_movies.csv                      # Raw movie dataset
+├── tmdb_5000_credits.csv                     # Raw credits dataset
 ├── README.md
-├── requirements.txt        # App requirements
-└── model.db                # SQLite database
+├── requirements.txt                          # App requirements
+└── model.db                                  # SQLite database
 ```
 
 ---
@@ -49,7 +49,7 @@ movie_recommender/
 
 3. **Run the Streamlit app:**
    ```bash
-   streamlit run frontend/app.py
+   streamlit run app.py
    ```
 
 4. **Access the app:**

@@ -196,3 +196,27 @@ def get_favorites() -> List[Dict[str, Any]]:
     rows = cursor.fetchall()
     conn.close()
     return [dict(row) for row in rows]
+
+# Add to backend.py
+
+def get_all_genres() -> List[str]:
+    """
+    Returns a list of all unique genre names.
+    """
+    conn = get_connection()
+    cursor = conn.cursor()
+    cursor.execute('SELECT genre_name FROM Genres')
+    genres = [row['genre_name'] for row in cursor.fetchall()]
+    conn.close()
+    return genres
+
+def get_all_movie_titles() -> List[str]:
+    """
+    Returns a list of all movie titles.
+    """
+    conn = get_connection()
+    cursor = conn.cursor()
+    cursor.execute('SELECT title FROM Movies')
+    titles = [row['title'] for row in cursor.fetchall()]
+    conn.close()
+    return titles

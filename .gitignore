@@ -3,3 +3,8 @@ data_loader.py
 dataset.zip
 backend/recommendation_model.py
 backend/movie_recommendation_model.pkl
+backend/__pycache__/__init__.cpython-313.pyc
+backend/__pycache__/database.cpython-313.pyc
+backend/__pycache__/model_handler.cpython-313.pyc
+backend/__pycache__/recommendation_model.cpython-313.pyc
+backend/__pycache__/database.cpython-313.pyc
